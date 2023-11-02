@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    width: 60px; 
+    height: 50px;
+    margin-left: 120px;
+}
+
+.logo p {
+    font-family: 'Bebas Neue', sans-serif;  
+    margin-left: 5px;
+    font-size:25px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 120px;
+}
+
+.menu a {
+    margin-left: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:smaller;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(138, 137, 137);
+    font-size: 21px;
+}
+
+.menu img {
+    margin-left: 100px;
+}
+
+.menu img:hover {
+    cursor: pointer;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;  
+    height: 100px;
+    flex-shrink: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+.experiencedTeam {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 52, 129, 0.281);
+    height: 40px;
+}
+
+.experiencedTeam p {
+    margin-top: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.experiencedTeam img {
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+#dividerLine {
+    display: flex;
+    justify-content: center;
+    padding: 0.5px;
+    background-color: rgb(134, 134, 134);
+    border-radius: 20px;
+    width: 100%;
+}
+
+#blog {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(26, 68, 133);
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.blogMenu {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.blogMenu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(68, 68, 68);
+    font-size: larger;
+}
+
+.blogMenu a:hover {
+    border-bottom: 3px solid rgb(26, 68, 133);
+    background-color: rgba(26, 69, 133, 0.075);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.blogMenu a.active {
+    border-bottom: 3px solid rgb(26, 68, 133);
+}
+
+#highlighted {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(26, 68, 133);
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.title {
+    display: block;
+    margin-top: 50px;
+}
+
+.title h1 {
+    border-bottom: 2px solid rgb(26, 68, 133);
+    display: inline;
+}
+
+
+#dividerLine1 {
+    margin-left: 14px;
+    padding: 0.5px;
+    background-color: rgb(134, 134, 134);
+    border-radius: 20px;
+    width: 97%;
+}
+
+.peopleBlogs {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 120px;
+}
+
+.highlightImages {
+    display: flex;
+    margin: 20px 10px 10px;
+}
+
+.highlightImages:hover {
+    cursor: pointer;
+}
+
+.highlightImages h4:hover {
+    text-decoration:underline;
+}
+
+.highlightImages img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+
+.cardText1 {
+    margin: 10px;
+    padding-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(26, 68, 133);
+}
+
+.cardText1 p {
+    color: rgb(107, 107, 107);
+    margin-top: 12px;
+}
+
+.cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card1 {
+    border-radius: 12px;
+    flex: 0 0 300px;
+    margin: 10px;
+    border: 0 solid #d4c5c5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card1 img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card1 .text2 {
+    padding: 20px 20px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card1 .text2 > button {
+    background: rgb(46, 87, 148);
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.card1 .text2 > button:hover {
+    background-color: darkgray;
+    transition-duration: 0.3s;
+    color: rgb(46, 87, 148);
+}
+
+#endButton {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(26, 68, 133);
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    font-family:'Bebas Neue', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+}
+
+#endButton:hover {
+    background-color: rgb(26, 68, 133);
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.endButton {
+    display: grid;
+    justify-content: right;
+    margin-right: 95px;
+}
+
+.footerContainer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 80px 0;
+}
+
+.footerColumn {
+    width: 25%;
+    padding: 0px 50px;
+}
+
+.footerColumn h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', sans-serif; 
+    font-weight: 500;
+    position: relative;
+}
+
+.footerColumn h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(26, 68, 133);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footerColumn a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif; 
+    transition: all 0.3s ease;
+}
+
+.footerColumn a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}

@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    width: 60px; 
+    height: 50px;
+    margin-left: 120px;
+}
+
+.logo p {
+    font-family: 'Bebas Neue', sans-serif;  
+    margin-left: 5px;
+    font-size:25px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 120px;
+}
+
+.menu a {
+    margin-left: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:smaller;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(138, 137, 137);
+    font-size: 21px;
+}
+
+.menu img {
+    margin-left: 100px;
+}
+
+.menu img:hover {
+    cursor: pointer;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;  
+    height: 100px;
+    flex-shrink: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+.experiencedTeam {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 52, 129, 0.281);
+    height: 40px;
+}
+
+.experiencedTeam p {
+    margin-top: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.experiencedTeam img {
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.faqHeader {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+
+.faqHeader .content {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.faqHeader h1 {
+    margin-top: 16%;
+}
+
+.faqHeader input {
+    width: 50%;
+    height: 12%;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(233, 235, 236);
+}
+
+.faqHeader button {
+    margin-top: 100px;
+    width: 6%;
+    height: 10%;
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(190, 168, 40);
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: rgb(134, 119, 30);
+    transition: background 0.5s;
+}
+
+#dividerLine {
+    display: flex;
+    justify-content: center;
+    padding: 0.5px;
+    margin-top: 70px;
+    background-color: rgb(134, 134, 134);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.questionList {
+    margin-left: 16px;
+}
+
+#suggestions {
+    margin: 70px 16px 0;
+    color: rgb(36, 80, 146);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.questions {
+    border: none;
+    border-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    width: 90%;
+    border-width: 1px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: rgb(36, 80, 146);
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.questions:hover {
+    background-color: rgb(20, 50, 95);
+}
+
+.arrow {
+    display: grid;
+    justify-content: right;
+    height: 12px;
+
+}
+#arrow {
+    display: inline-block;
+    margin-bottom: 90px;
+}
+
+.rates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#help {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(36, 80, 146);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.footerContainer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer {
+    background-color: #142347;
+    padding: 80px 0;
+}
+
+.footerColumn {
+    width: 25%;
+    padding: 0px 50px;
+}
+
+.footerColumn h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', sans-serif; 
+    font-weight: 500;
+    position: relative;
+}
+
+.footerColumn h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(26, 68, 133);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footerColumn a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif; 
+    transition: all 0.3s ease;
+}
+
+.footerColumn a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}

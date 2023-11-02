@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles/style4.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital@1&family=Tektur&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Mulish:ital,wght@1,300&family=Raleway:ital@1&family=Tektur&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="/pictures/Vector (2).png">
+                    <p>BUSIN</p>
+                     <a id="home" href="/index.html">home</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+
+            <form>
+                <div class="container">
+                  <h1 id="register1">Sign In</h1>
+                  <hr>
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="email" placeholder="Enter your Email" id="email" required>
+
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter your Password" id="password" required>
+
+                  <span>remember</span>
+                  <input id="remember" type="checkbox">
+              
+                  <button onclick="signInHandler(event)" type="submit" class="registerbtn" value="Log in">Log In</button>
+                </div>
+
+                <div class="container signin">
+                    <p>Don't have an Account? <a href="/index4.html">Registration</a>.</p>
+                  </div>
+              
+              </form>
+
+        </main>
+        <footer class="footer">
+            <div class="footerContainer">
+                <div class="row">
+                    <div class="footerColumn">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="/index2.html">Blog</a></li>
+                            <li><a href="/index5.html">FAQs</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="/index3.html">About us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerColumn">
+                        <h4>vacancies</h4>
+                        <ul>
+                            <li><a href="#">Holiday jobs</a></li>
+                            <li><a href="#">Permanent jobs</a></li>
+                            <li><a href="#">Voluntary work</a></li>
+                            <li><a href="#">Working abroad</a></li>
+                            <li><a href="#">Countries</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerColumn">
+                        <h4>account</h4>
+                        <ul>
+                            <li><a href="#">Create an account</a></li>
+                            <li><a href="/index4.html">Log in</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerColumn">
+                        <h4>Follow us</h4>
+                        <ul>
+                            <li><a href="#"><img src="/pictures/Platform=Instagram, Color=Negative.png"></a></li>
+                            <li><a href="#"><img src="/pictures/Vector (4).png"></a></li>
+                            <li><a href="#"><img src="/pictures/Vector (6).png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="/scripts/generateString.js"></script>
+        <script type="text/javascript" src="/scripts/cookies.js"></script>
+        <script type="text/javascript" src="/scripts/signIn.js"></script>
+
+    </body>
+</html>
