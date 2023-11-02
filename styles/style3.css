@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    width: 60px; 
+    height: 50px;
+    margin-left: 120px;
+}
+
+.logo p {
+    font-family: 'Bebas Neue', sans-serif;  
+    margin-left: 5px;
+    font-size:25px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 120px;
+}
+
+.menu a {
+    margin-left: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:smaller;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(138, 137, 137);
+    font-size: 21px;
+}
+
+.menu img {
+    margin-left: 100px;
+}
+
+.menu img:hover {
+    cursor: pointer;
+}
+
+nav {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;  
+    height: 100px;
+    flex-shrink: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+body {
+    background-color: white;
+}
+
+.intro {
+    width: 100%;
+    height: 650px;
+    background-color:rgb(34, 73, 131);
+    display: flex;
+    justify-content: center;
+}
+
+.introText {
+    width: 90%;
+    margin-top: 12%;
+    margin-bottom: 13%;
+    text-align: center;
+    color: whitesmoke;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 24px;
+    animation-direction: alternate;
+}
+
+.introText h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 6px white;
+}
+
+.introText p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    font-size:x-large;
+}
+
+p:first-child {
+    margin-bottom: 12px;
+}
+
+@keyframes example {
+    0%{background-color: rgb(9, 52, 116);}
+    20%{background-color: rgb(31, 71, 129);}
+    40%{background-color:rgb(27, 62, 114);}
+    60%{background-color:rgb(29, 66, 121);}
+    80%{background-color:rgb(28, 75, 145);}
+    100%{background-color:rgb(30, 76, 145)}
+}
+
+.bobo {
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 80%;
+    margin-top: 90px;
+    margin: 100px;
+    color: rgb(9, 52, 116);
+}
+
+.bobo p {
+    margin-top: 30px;
+    color: gray;
+}
+
+.boboPic {
+    display: flex;
+    padding-left: 90px;
+
+}
+
+.bobo2 {
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 80%;
+    margin-top: 120px;
+    margin: 100px;
+    color: rgb(9, 52, 116);
+}
+
+.bobo2 p {
+    margin-top: 30px;
+    color: gray;
+}
+
+.boboPic1 {
+    display: flex;
+    padding-left: 90px;
+}
+
+.timingFunction {
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 90px;
+    width: 100px;
+    margin-left: 90px;
+    height: 8px;
+    background:rgb(79, 107, 150);
+    transition: width 2s;
+}
+
+.timingFunction:hover {
+    width: 700px;
+
+}
+
+.ourTeam {
+    margin-top: 160px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(34, 73, 131);
+}
+
+.ourTeam p {
+    color:rgb(75, 123, 196) ;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.teammates {
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    border-color: rgb(235, 235, 235);
+    border-radius: 12px;
+}
+
+.teammates img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.description {
+    margin: 13px;
+}
+
+
+.description h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(34, 73, 131);
+}
+
+.description p {
+    margin-top: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkgray
+}
+
+.footerContainer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 80px 0;
+}
+
+.footerColumn {
+    width: 25%;
+    padding: 0px 50px;
+}
+
+.footerColumn h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', sans-serif; 
+    font-weight: 500;
+    position: relative;
+}
+
+.footerColumn h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(26, 68, 133);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footerColumn a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif; 
+    transition: all 0.3s ease;
+}
+
+.footerColumn a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
