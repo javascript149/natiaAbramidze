@@ -95,14 +95,6 @@ p:first-child {
     margin-bottom: 12px;
 }
 
-@keyframes example {
-    0%{background-color: rgb(9, 52, 116);}
-    20%{background-color: rgb(31, 71, 129);}
-    40%{background-color:rgb(27, 62, 114);}
-    60%{background-color:rgb(29, 66, 121);}
-    80%{background-color:rgb(28, 75, 145);}
-    100%{background-color:rgb(30, 76, 145)}
-}
 
 .bobo {
     display: flex;

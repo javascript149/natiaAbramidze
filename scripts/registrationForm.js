@@ -9,11 +9,23 @@ function handleRegistration(event) {
 
   const isUserRegistered = oldUsersData.some((user) => user.email === email);
 
+  if (!firstName || !lastName || !email || !password) {
+    alert(" Please enter all Fields.");
+    return;
+  }
+
+
   if (isUserRegistered) {
     alert("User with this email already exists. Please use a different email.");
     return;
   }
 
+  if (!email.includes("@")) {
+    alert("Email is not correct, Please try it again!");
+    return;
+  }
+
+  
   const newUser = {
     firstName,
     lastName,

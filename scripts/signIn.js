@@ -11,6 +11,11 @@ function signInHandler(event) {
     return;
   }
 
+  if (!email) {
+    alert("Email is not correct, Please try it again!");
+    return;
+  }
+
   dataFromDb = JSON.parse(dataFromDb);
   let userFound = false;
 
